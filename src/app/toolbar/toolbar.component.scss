@@ -1,16 +1,18 @@
-.center_toolbar {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
+// input[type="text"] {
+//     top: 50%;
+//     left: 50%;
+//     border: 1px solid #ccc;
+//     border-radius: 20px;
+//     font-size: 16px;
+//     width: 500px;
+//     background-color: #f1f1f1;
+//     text-indent: 10px;
+//   }
 
-input[type="text"] {
-    top: 50%;
+
+.new-content {
+    position: absolute;
+    top: 2.5%;
     left: 50%;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    font-size: 16px;
-    width: 500px;
-    background-color: #f1f1f1;
-    text-indent: 10px;
-  }
+    transform: translate(-50%, -50%);
+}

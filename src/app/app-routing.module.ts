@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MapComponent } from './map/map.component';
 import { CityComponent } from './map/city/city.component';
+import { LoginComponent } from './client/login/login.component';
+import { EspaceClientComponent } from './client/espace-client/espace-client.component';
 
 const routes: Routes = [
   {
@@ -16,6 +18,14 @@ const routes: Routes = [
   {
     path: 'map/:city',
     component: CityComponent,
+  },
+  {
+    path: 'client/login',
+    component: LoginComponent,
+  },
+  {
+    path: 'client/mon-espace',
+    component: EspaceClientComponent
   }
 ];
 

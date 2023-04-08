@@ -1,5 +1,6 @@
-<!-- <div class="black">
-</div> -->
+<app-toolbar>
+</app-toolbar>
+
 <div class="image">
     <img src="../../assets/images/black.jpg" />
     <mat-form-field class="input">
@@ -7,6 +8,7 @@
         <input matInput type="text" [(ngModel)]="city">
         <button matSuffix mat-icon-button [routerLink]="['/map', city]">
             <mat-icon>search</mat-icon>
-          </button>
+        </button>
     </mat-form-field>
+    <button [routerLink]="['/map']" class="button" mat-raised-button color="primary">Ou chercher dans toute la France</button>
 </div>

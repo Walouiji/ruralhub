@@ -4,23 +4,26 @@
     
 }
 
-.black {
-    height: 100%;
-    position: relative;
-    opacity: 0.5;
-    background-color: black;
-}
-
 img {
     // position: absolute;
     height: 100%;
     width: 100%;
     opacity: 0.75;
+    pointer-events: none;
 }
 
 .input {
     position: absolute;
     top: 50%;
     left: 50%;
-    
+    transform: translate(-50%, -50%);
 }
+
+.button {
+    @extend .input;
+    top: 55%;
+}
+
+::ng-deep .mat-form-field-outline-end {
+    border-radius: 0 28px 28px 0 !important;
+  }
