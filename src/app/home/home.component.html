@@ -1,1 +1,12 @@
-<p>home works!</p>
+<!-- <div class="black">
+</div> -->
+<div class="image">
+    <img src="../../assets/images/black.jpg" />
+    <mat-form-field class="input">
+        <mat-label>Rechercher une ville...</mat-label>
+        <input matInput type="text" [(ngModel)]="city">
+        <button matSuffix mat-icon-button [routerLink]="['/map', city]">
+            <mat-icon>search</mat-icon>
+          </button>
+    </mat-form-field>
+</div>

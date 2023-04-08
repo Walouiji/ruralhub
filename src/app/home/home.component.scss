@@ -1,0 +1,26 @@
+.image {
+    height: 100%;
+    background-image: url('../../assets/images/Outdoor-Market.jpg');
+    
+}
+
+.black {
+    height: 100%;
+    position: relative;
+    opacity: 0.5;
+    background-color: black;
+}
+
+img {
+    // position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
