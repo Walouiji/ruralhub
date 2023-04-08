@@ -37,6 +37,28 @@
           }
         }
       }
+    },
+    {
+      "label": "generate component",
+      "type": "shell",
+      "command": "ng g c ${input:componentName}",
+    },
+    {
+      "label": "generate service",
+      "type": "shell",
+      "command": "ng g s ${input:serviceName}",
+    }
+  ],
+  "inputs": [
+    {
+      "id": "componentName",
+      "type": "promptString",
+      "description": "Enter component name"
+    },
+    {
+      "id": "serviceName",
+      "type": "promptString",
+      "description": "Enter service name"
     }
   ]
 }

@@ -1,0 +1,11 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer #drawer class="container-drawer" mode="over" opened>Drawer content</mat-drawer>
+    <mat-drawer-content>
+        <div>
+            <img style=" position: absolute;" src="../assets/images/france_map.png">
+            <button (click)="drawer.toggle()" mat-mini-fab class="market_indicator">
+                <span>5</span>
+            </button>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>
