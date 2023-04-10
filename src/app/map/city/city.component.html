@@ -4,7 +4,10 @@
       </div>
 </app-toolbar>
 <mat-drawer-container class="example-container">
-    <mat-drawer #drawer class="container-drawer" mode="over" opened>Drawer content</mat-drawer>
+    <mat-drawer #drawer class="container-drawer" mode="over" opened>
+        <single-market title="titre" address="5 Avenue d'Italie 6300 Clermont-Ferrand" horaires="Lundi 8h-12h30" />
+        <mat-divider />
+    </mat-drawer>
     <mat-drawer-content>
         <div>
             <img style=" position: absolute;" src="../assets/images/france_map.png">

@@ -17,10 +17,12 @@ import { HomeComponent } from './home/home.component';
 import { MapComponent } from './map/map.component';
 import { CityComponent } from './map/city/city.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './client/login/login.component';
 import { EspaceClientComponent } from './client/espace-client/espace-client.component';
+import { SingleMarketComponent } from './components/single-market/single-market.component';
 
 
 @NgModule({
@@ -31,7 +33,8 @@ import { EspaceClientComponent } from './client/espace-client/espace-client.comp
     CityComponent,
     ToolbarComponent,
     LoginComponent,
-    EspaceClientComponent
+    EspaceClientComponent,
+    SingleMarketComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +43,7 @@ import { EspaceClientComponent } from './client/espace-client/espace-client.comp
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatDividerModule,
     MatSidenavModule,
     MatGridListModule,
     MatListModule,
