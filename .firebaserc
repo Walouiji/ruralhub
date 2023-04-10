@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ruralhub-ab191": {
+      "hosting": {
+        "ruralhub": [
+          "ruralhub"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ruralhub-ab191"
+  }
+}

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
@@ -40,6 +41,7 @@ import { EspaceClientComponent } from './client/espace-client/espace-client.comp
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
+    MatGridListModule,
     MatListModule,
     MatInputModule,
     MatFormFieldModule,

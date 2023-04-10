@@ -1,1 +1,32 @@
-<p>espace-client works!</p>
+<app-toolbar [type]="'right'">
+    <button mat-mini-fab color="warn">
+        <mat-icon>account_circle</mat-icon>
+    </button>
+</app-toolbar>
+
+
+<div>
+    <mat-drawer-container class="example-container">
+        <mat-drawer #drawer class="container-drawer" mode="side" opened>
+            <p>Vue d'ensemble</p>
+            <p>Informations Personnelles</p>
+            <p>Sécurité</p>
+            <p>Abonnement</p>
+        </mat-drawer>
+        <mat-drawer-content>
+            <div>
+                <p>
+                    Reprehenderit laboris aliquip nostrud sunt aliqua minim occaecat. Amet commodo ipsum qui laborum aliquip consectetur ut. Ipsum qui qui sit velit irure. Excepteur voluptate occaecat sunt dolore deserunt et incididunt veniam ex ea voluptate. Aliquip laborum laborum in duis non enim labore excepteur. Proident sunt ex sunt in est est.
+
+Aute dolor et commodo voluptate. Veniam deserunt amet eu elit amet do Lorem enim duis aliquip. Magna culpa sint laborum do. Mollit esse nulla duis in cupidatat consequat. Dolore occaecat magna proident minim Lorem cillum reprehenderit eu proident reprehenderit enim exercitation cupidatat ex. Cillum consequat eu incididunt exercitation anim veniam sunt consequat laborum officia magna. Labore labore incididunt amet est eiusmod aliqua esse dolore nulla dolore in velit.
+
+Irure in reprehenderit voluptate do ullamco nulla. Est ex laborum incididunt laboris irure id culpa velit sunt. Est ipsum eiusmod ullamco ad laborum culpa Lorem est dolore duis magna. Cillum occaecat ad amet aliquip voluptate enim consequat minim id id. Ex fugiat sit voluptate cupidatat voluptate dolore labore non non amet id anim velit duis. Est ullamco ad magna aute id.
+
+Labore tempor ea nulla voluptate et laborum dolor id aliqua ad. Dolor non ad cupidatat consequat velit Lorem ad enim minim tempor irure. Sunt do sunt velit labore sit quis commodo tempor ut. Elit consequat elit aliqua cupidatat tempor nisi incididunt voluptate aliquip eu. Ad in laboris exercitation mollit eu Lorem amet magna ipsum eu et.
+
+Voluptate sint voluptate non deserunt sit. Culpa est ut deserunt Lorem pariatur nisi. Magna quis deserunt et elit Lorem ullamco. Pariatur incididunt tempor sunt do tempor veniam aliqua pariatur. Voluptate id amet magna esse et.
+                </p>
+            </div>
+        </mat-drawer-content>
+    </mat-drawer-container>
+</div>

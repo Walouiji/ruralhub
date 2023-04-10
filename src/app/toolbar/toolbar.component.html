@@ -1,6 +1,6 @@
 <mat-toolbar color="primary">
   <img [routerLink]="['']" src="../assets/images/logo_no_bg.png" height="50">
-  <div class="new-content">
+  <div [ngClass]="(type == 'center')? 'new-content-center': 'new-content-right'">
     <ng-content />
   </div>
 </mat-toolbar>
