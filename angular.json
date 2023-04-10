@@ -99,6 +99,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "ruralhub:build:production",
+            "firebaseProject": "ruralhub-ab191",
+            "firebaseHostingSite": "ruralhub"
+          }
         }
       }
     }

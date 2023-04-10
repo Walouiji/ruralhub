@@ -1,3 +1,13 @@
+input[type="text"] {
+  top: 50%;
+  left: 50%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 500px;
+  background-color: #f1f1f1;
+  text-indent: 10px;
+}
 
 .market_indicator {
     position: absolute;
@@ -11,5 +21,5 @@
   }
 
   .container-drawer {
-    width: 10em;
+    width: 20em;
   }

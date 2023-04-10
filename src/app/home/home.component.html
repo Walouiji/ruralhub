@@ -1,4 +1,8 @@
-<app-toolbar>
+<app-toolbar [type]="'right'">
+    <div style="left: 100%;">
+        <button mat-raised-button color="accent">Espace Professionnel</button>
+        <button mat-raised-button color="accent" [routerLink]="['client/mon-espace']">Espace Client</button>
+    </div>
 </app-toolbar>
 
 <div class="image">
@@ -10,5 +14,5 @@
             <mat-icon>search</mat-icon>
         </button>
     </mat-form-field>
-    <button [routerLink]="['/map']" class="button" mat-raised-button color="primary">Ou chercher dans toute la France</button>
+    <button [routerLink]="['/map']" class="button" mat-raised-button color="primary">Ou chercher dans toute la France...</button>
 </div>

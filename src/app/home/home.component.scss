@@ -23,7 +23,3 @@ img {
     @extend .input;
     top: 55%;
 }
-
-::ng-deep .mat-form-field-outline-end {
-    border-radius: 0 28px 28px 0 !important;
-  }
